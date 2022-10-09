@@ -5,3 +5,6 @@ Desktop app to watermark images
 
 ## Features
 Places text in image allowing to input text, position and size.
+
+## Result
+Saves watermarked file in application folder with filename preceded by "watermarked_"
