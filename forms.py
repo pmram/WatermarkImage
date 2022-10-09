@@ -61,7 +61,7 @@ class Window:
             padx=5,
             pady=5
         )
-        self.process_button.grid(row=15, column=1, columnspan=2, pady=10, padx=10)
+        self.process_button.grid(row=15, column=0, columnspan=4, pady=10, padx=10)
         self.browse_button = customtkinter.CTkButton(
             master,
             text="Browse",
