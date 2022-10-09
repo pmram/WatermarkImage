@@ -100,7 +100,7 @@ class Window:
             font_size_percentage = self.font_size.get()
             self.image_processor.add_watermark(
                 text,
-                filename=self.filepath,
+                filepath=self.filepath,
                 pos_x=horizontal_align,
                 pos_y=vertical_align,
                 size=0.1 * (font_size_percentage / 100)
@@ -108,5 +108,5 @@ class Window:
         else:
             self.image_processor.add_watermark(
                 "Teste",
-                filename=self.filepath
+                filepath=self.filepath
             )
